@@ -1,0 +1,11 @@
+pubspec.lock
+
+packages/
+
+.DS_Store
+
+*~
+*.*~
+
+*.swp
+*.swo

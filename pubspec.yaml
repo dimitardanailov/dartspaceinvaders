@@ -2,4 +2,7 @@ name: SpaceInvaders
 description: A sample web application
 dependencies:
   browser: any
-  stagexl: any
+  stagexl: 
+    git: https://github.com/bp74/StageXL.git
+  convenience_xl: 
+    git: https://github.com/pstjvn/convenience_xl.git

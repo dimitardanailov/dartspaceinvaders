@@ -11,7 +11,10 @@ class SpaceInvadersResourceManager extends ResourceManager {
   Future load() {
     // Add multiple resources
     this
-     ..addBitmapData("background", "assets/background.jpg");
+     ..addBitmapData("background", "assets/background.jpg")
+     ..addBitmapData("spaceship", "assets/alienblaster.png")
+     ..addBitmapData("asteroid", "assets/158ltd-asteroid.jpg")
+     ..addBitmapData("explosion", "assets/explosion_sprite.png");
     
     return super.load();
   }
